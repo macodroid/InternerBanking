@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<transactions>
+  <transaction transactionId="1" fullName="Andrej Palovic" transactionType="0" amount="10.0" issueDate="05.02.2019" bankCode="1100" accountNumber="46164646416" />
+  <transaction transactionId="2" fullName="Miroslav Vladar" transactionType="1" amount="15.5" issueDate="05.02.2019" bankCode="6500" accountNumber="82549314737" />
+  <transaction transactionId="3" fullName="Miroslav Vladar" transactionType="2" amount="15.5" issueDate="05.02.2019" place="Od Slimak" cardNo="5616516516161" />
+  <transaction transactionType="0" accountNumber="account1" amount="100.23" bankCode="123" fullName="Janko Hrasko" issueDate="2021-11-20T00:00:00" transactionId="1245" />
+  <transaction transactionType="0" accountNumber="account1" amount="100.23" bankCode="123" fullName="Janko Hrasko" issueDate="2021-11-20T00:00:00" transactionId="1223343245" />
+  <transaction transactionType="0" accountNumber="account1" amount="100.23" bankCode="123" fullName="Janko Hrasko" issueDate="2021-11-20T00:00:00" transactionId="1223343245" />
+  <transaction transactionType="0" accountNumber="account1" amount="100.23" bankCode="123" fullName="Janko Hrasko" issueDate="2021-11-20T00:00:00" transactionId="1223343245" />
+</transactions>
