@@ -7,7 +7,6 @@ import { TransactionListComponent } from './transaction-list/transaction-list.co
 import { BasicDetailComponent } from './transaction-detail/basic-detail/basic-detail.component';
 import { WithdrawalDetailComponent } from './transaction-detail/withdrawal-detail/withdrawal-detail.component';
 
-
 @NgModule({
   declarations: [
     TransactionDetailComponent,
@@ -17,7 +16,7 @@ import { WithdrawalDetailComponent } from './transaction-detail/withdrawal-detai
   ],
   imports: [
     CommonModule,
-    BasicAccountRoutingModule
+    BasicAccountRoutingModule,
   ]
 })
 export class BasicAccountModule { }
