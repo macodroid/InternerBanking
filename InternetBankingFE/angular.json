@@ -66,12 +66,16 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "proxyConfig": "proxy.config.json"
+          },
           "configurations": {
             "production": {
               "browserTarget": "InternetBankingFE:build:production"
             },
             "development": {
-              "browserTarget": "InternetBankingFE:build:development"
+              "browserTarget": "InternetBankingFE:build:development",
+              
             }
           },
           "defaultConfiguration": "development"

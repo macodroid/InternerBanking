@@ -7,17 +7,11 @@ const routes: Routes = [
   {
     path: "list",
     component: TransactionListComponent,
-    children:[
-      {
-        path: "detail",
-        component: TransactionDetailComponent
-      }
-    ]
   },
-  // {
-  //   path: "list/detail",
-  //   component: TransactionDetailComponent
-  // }
+  {
+    path: "list/detail",
+    component: TransactionDetailComponent
+  }
 ]
 
 @NgModule({

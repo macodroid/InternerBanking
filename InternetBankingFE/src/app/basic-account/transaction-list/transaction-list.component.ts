@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ResourceDataService } from 'src/app/data-service';
 
 @Component({
   selector: 'app-transaction-list',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./transaction-list.component.css']
 })
 export class TransactionListComponent implements OnInit {
+  data!: Object;
 
-  constructor() { }
+  constructor(public transactionService: ResourceDataService) {
+    transactionService.getTransactionList$;
+   }
 
   ngOnInit(): void {
+    this.transactionService.getTransactionList$().subscribe(data => this.data = data)
   }
 
 }
